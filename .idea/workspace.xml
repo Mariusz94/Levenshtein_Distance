@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ddf56a-f754-4169-a338-c38e3daac1d5" name="Default Changelist" comment="" />
+    <list default="true" id="d5ddf56a-f754-4169-a338-c38e3daac1d5" name="Default Changelist" comment="Change name of method">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +20,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\Glowny folder MojaJava\Moje programy\1.Projekty\Levenshtein_Distance" />
+        <option value="E:\Glowny folder MojaJava\Moje programy\1.Projekty\Levenshtein_Distance\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1eRtdckXXjqeebUepJ9nPcW6v0M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,14 +80,32 @@
       <option name="presentableId" value="Default" />
       <updated>1594296322321</updated>
       <workItem from="1594296328494" duration="11183000" />
-      <workItem from="1594307788179" duration="1373000" />
+      <workItem from="1594307788179" duration="1548000" />
+      <workItem from="1594309430135" duration="4000" />
+      <workItem from="1594309446172" duration="276000" />
     </task>
+    <task id="LOCAL-00001" summary="add workspace.xml">
+      <created>1594309298907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594309298907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add workspace.xml" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="163" y="198" key="CommitChangelistDialog2" timestamp="1594309743697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="163" y="198" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594309743697" />
     <state x="1326" y="395" key="Github.ShareDialog" timestamp="1594309217356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -84,22 +114,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1149" y="207" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594309235160" />
-    <state width="836" height="266" key="GridCell.Tab.0.bottom" timestamp="1594308776967">
+    <state width="836" height="266" key="GridCell.Tab.0.bottom" timestamp="1594309337345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594308776967" />
-    <state width="836" height="266" key="GridCell.Tab.0.center" timestamp="1594308776967">
+    <state width="836" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
+    <state width="836" height="266" key="GridCell.Tab.0.center" timestamp="1594309337345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594308776967" />
-    <state width="836" height="266" key="GridCell.Tab.0.left" timestamp="1594308776966">
+    <state width="836" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
+    <state width="836" height="266" key="GridCell.Tab.0.left" timestamp="1594309337345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594308776966" />
-    <state width="836" height="266" key="GridCell.Tab.0.right" timestamp="1594308776967">
+    <state width="836" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
+    <state width="836" height="266" key="GridCell.Tab.0.right" timestamp="1594309337345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594308776967" />
+    <state width="836" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
+    <state x="1070" y="234" key="Vcs.Push.Dialog.v2" timestamp="1594309304479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1070" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594309304479" />
     <state x="1134" y="233" key="run.anything.popup" timestamp="1594306718448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
