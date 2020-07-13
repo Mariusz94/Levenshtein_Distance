@@ -1,17 +1,11 @@
-package pl.lyszczarz.mriusz;
+package pl.lyszczarz.mariusz.levenshteinDistance;
 
 /**
  * Program calculate Levenshtein distance
  *
  * @author Mariusz Lyszczarz
  */
-public class Main {
-    public static void main(String[] args) {
-        Main main = new Main();
-        System.out.println("kitten" + " " + "sitting");
-        System.out.println(main.calculateLevenshteinDistance("kitten".toCharArray(), "sitting".toCharArray()));
-
-    }
+public class LevenshteinDistance {
 
     /**
      * Method calculate Levenshtein distance
@@ -20,7 +14,10 @@ public class Main {
      * @param secondWord Second word in char array
      * @return Return int value of Levenshtein distance
      */
-    int calculateLevenshteinDistance(char[] oneWord, char[] secondWord) {
+    public static int calculateLevenshteinDistance(char[] oneWord, char[] secondWord) {
+        if (oneWord.length == 0) return secondWord.length;
+        if (secondWord.length == 0) return oneWord.length;
+
         int[][] d = new int[oneWord.length + 1][secondWord.length + 1];
 
         for (int i = 0; i < d.length; i++)
@@ -51,14 +48,14 @@ public class Main {
      * @param corner Type diagonal ceil of main ceil
      * @return Return int value minimum number
      */
-    int getMinimum(int left, int upper, int corner) {
+    private static int getMinimum(int left, int upper, int corner) {
         int min = left;
         if (upper < min) min = upper;
         if (corner < min) min = corner;
         return min;
     }
 
-    void printArray(int array[][], char mainWord[], char toCompareWord[]) {
+    private static void printArray(int array[][], char mainWord[], char toCompareWord[]) {
         System.out.print("      ");
         for (char c : toCompareWord) {
             System.out.print(c + "  ");

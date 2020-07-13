@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ddf56a-f754-4169-a338-c38e3daac1d5" name="Default Changelist" comment="Change name of method">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d5ddf56a-f754-4169-a338-c38e3daac1d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/lyszczarz/mariusz/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/lyszczarz/mriusz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/lyszczarz/mariusz/levenshteinDistance/LevenshteinDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,19 +22,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="E:\Glowny folder MojaJava\Moje programy\1.Projekty\Levenshtein_Distance" />
-        <option value="E:\Glowny folder MojaJava\Moje programy\1.Projekty\Levenshtein_Distance\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1eRtdckXXjqeebUepJ9nPcW6v0M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -41,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pl/lyszczarz/mriusz/sample" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,13 +42,73 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.lyszczarz.mriusz.Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Glowny folder MojaJava\Moje programy\1.Projekty\Levenshtein_Distance\src\pl\lyszczarz\mariusz\sample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Glowny folder MojaJava\Moje programy\1.Projekty\Levenshtein_Distance\src\pl\lyszczarz\mriusz\sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test2">
+    <configuration name="LevenshteinDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lyszczarz.mariusz.levenshteinDistance.LevenshteinDistance" />
       <module name="Levenshtein_Distance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.lyszczarz.mriusz.*" />
+          <option name="PATTERN" value="pl.lyszczarz.mariusz.levenshteinDistance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lyszczarz.mariusz.sample.Main" />
+      <module name="Levenshtein_Distance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.lyszczarz.mariusz.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleLayers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lyszczarz.mariusz.sample.SimpleLayers" />
+      <module name="Levenshtein_Distance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.lyszczarz.mariusz.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lyszczarz.mariusz.sample.Test2" />
+      <module name="Levenshtein_Distance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.lyszczarz.mariusz.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLayeredPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lyszczarz.mariusz.sample.TestLayeredPane" />
+      <module name="Levenshtein_Distance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.lyszczarz.mariusz.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,7 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.TestLayeredPane" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimpleLayers" />
+        <item itemvalue="Application.LevenshteinDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +139,8 @@
       <workItem from="1594296328494" duration="11183000" />
       <workItem from="1594307788179" duration="1548000" />
       <workItem from="1594309430135" duration="4000" />
-      <workItem from="1594309446172" duration="276000" />
+      <workItem from="1594309446172" duration="362000" />
+      <workItem from="1594376433613" duration="22507000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace.xml">
       <created>1594309298907</created>
@@ -91,21 +149,53 @@
       <option name="project" value="LOCAL" />
       <updated>1594309298907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change name of method">
+      <created>1594309765191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594309765191</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add workspace.xml" />
+    <MESSAGE value="Change name of method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name of method" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="198" key="CommitChangelistDialog2" timestamp="1594309743697">
+    <state x="1283" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1594666230120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="163" y="198" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594309743697" />
+    <state x="1283" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594666230120" />
+    <state x="954" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594376615998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="954" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594376615998" />
+    <state x="163" y="198" key="CommitChangelistDialog2" timestamp="1594309763887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="163" y="198" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594309763887" />
+    <state x="1260" y="256" key="FileChooserDialogImpl" timestamp="1594388753440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1260" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594388753440" />
     <state x="1326" y="395" key="Github.ShareDialog" timestamp="1594309217356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -114,33 +204,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1149" y="207" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594309235160" />
-    <state width="836" height="266" key="GridCell.Tab.0.bottom" timestamp="1594309337345">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1594667016581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
-    <state width="836" height="266" key="GridCell.Tab.0.center" timestamp="1594309337345">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594667016581" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1594667016581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
-    <state width="836" height="266" key="GridCell.Tab.0.left" timestamp="1594309337345">
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594667016581" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1594667016581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
-    <state width="836" height="266" key="GridCell.Tab.0.right" timestamp="1594309337345">
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594667016581" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1594667016581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="836" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594309337345" />
-    <state x="1070" y="234" key="Vcs.Push.Dialog.v2" timestamp="1594309304479">
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594667016581" />
+    <state x="1070" y="234" key="Vcs.Push.Dialog.v2" timestamp="1594309768565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1070" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594309304479" />
+    <state x="1070" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594309768565" />
+    <state x="1134" y="258" key="extract.method.dialog" timestamp="1594400052128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1134" y="258" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594400052128" />
     <state x="1134" y="233" key="run.anything.popup" timestamp="1594306718448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1134" y="233" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594306718448" />
-    <state x="1141" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1594297481229">
+    <state x="1141" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1594663537357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1141" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594297481229" />
+    <state x="1141" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594663537357" />
   </component>
 </project>
